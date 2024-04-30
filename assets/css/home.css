@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Adjusted */
+  margin-top: 20px; /* Added */
+}
+
+
+li {
+  background-color: #aee9df;
+  margin: 10px;
+  padding: 10px;
+  width: 700px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #182e5a;
+  margin-right: 10px;
+}
+
+.project-author {
+  font-style: italic;
+  color: #70097e;
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.project-description {
+  margin-top: 17px;
+  text-transform: capitalize;
+  font-size: 19px;
+}
+
+.view-project-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #0056b3;
+  color: #c2adad;
+  text-decoration: none;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-top: -42px;
+}
+
+.view-project-button:hover {
+  background: linear-gradient(180deg, cyan, blue) ;
+  color: black;
+}
+
+.create-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.create-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2837bd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  
+}
+
+.create-button:hover {
+  background: linear-gradient(148deg, cyan, blue);
+  
+}
+
+.welcome-heading {
+  text-align: center;
+  font-size: 24px;
+  animation: fade-in 1s ease-in-out;
+}
+
+

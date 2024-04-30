@@ -1,0 +1,58 @@
+.issue-form {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: 0 50px;
+  background: rgb(211, 211, 211);
+}
+
+
+
+.issue-form div {
+  width: 100%;
+  padding: 15px 50px;
+  margin: 0 50px;
+}
+
+.issue-form label {
+  display: block;
+  font-size: 1.2rem;
+}
+
+
+.issue-form input{
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #979393;
+  border-radius: 10px;
+  flex: 1;
+  background: transparent;
+}
+
+.issue-form textarea {
+  height: 100px;
+  width: 100%;
+  background: rgb(226, 223, 223);
+  border: 2px solid #979393;
+}
+
+.issue-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.issue-form button[type="submit"]:hover {
+  background: linear-gradient(135deg, cyan, blue);
+}
+
+
+
+.custom-select select{
+  margin-left: -100px;
+}
